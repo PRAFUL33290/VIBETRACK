@@ -7,11 +7,10 @@ import { BottomNav } from "@/components/BottomNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VibeTrack | Track your emotions through music",
+  title: "VibeTrack | Suivez vos émotions à travers la musique",
   description:
-    "Suivez vos émotions grâce à la musique. Analysez votre humeur et découvrez vos vibes au quotidien.",
+    "VibeTrack vous aide à suivre vos émotions grâce à la musique, analyser votre humeur et mieux comprendre vos ressentis au quotidien.",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
